@@ -28,7 +28,7 @@ const Hero = () => {
           <div className="flex justify-center">
             <div className="flex flex-col items-center justify-center text-white space-y-6 md:space-y-8 lg:space-y-10 font-serif "
             >
-              <div className="text-sm md:text-base lg:text-xl">WELCOME TO THE GREENSTORE </div>
+              <div className="text-sm md:text-base lg:text-xl font-bold">WELCOME TO THE GREENSTORE </div>
               <div className={`${sevillana.className} text-2xl md:text-3xl lg:text-4xl text-center px-3 text-wrap space-y-4`}>
                 <p>Let&#39;s Bring the Spring to Your Home!{" "}</p>
               </div>
