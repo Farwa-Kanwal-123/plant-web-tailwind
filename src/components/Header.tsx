@@ -18,16 +18,16 @@ const Header = () => {
 
   return (
     <main>
-      <div className="max-w-[1440px] lg:h-[60px] bg-green-800">
+      <div className="max-w-[1440px] lg:h-[70px] bg-green-800">
         <div className="px-6 md:px-16 py-3 flex justify-between items-center">
           {/* Logo */}
           <h1 className={`${righteous.className} text-2xl lg:text-3xl text-white`}>Green Store</h1>
           {/* Navbar */}
-          <nav className="hidden md:flex space-x-10 text-white ">
+          <nav className="hidden md:flex space-x-8 text-white font-semibold ">
             <Link href={"/"} className="hover:scale-105">Home</Link>
             <Link href={"/about"} className="hover:scale-105">About</Link>
-            <Link href={"/Blogs"} className="hover:scale-105">Blogs</Link>
-            <Link href={"/Contacts"} className="hover:scale-105">Contacts</Link>
+            <Link href={"/collections"} className="hover:scale-105">Collections</Link>
+            <Link href={"/contact"} className="hover:scale-105">Contacts</Link>
           </nav>
           {/* Hamburger Menu */}
           <div className="md:hidden">
@@ -46,11 +46,11 @@ const Header = () => {
               <Link href={"/about"} onClick={() => setIsMenuOpen(false)}>
                 About
               </Link>
-              <Link href={"/Blogs"} onClick={() => setIsMenuOpen(false)}>
-                Blogs
+              <Link href={"/collections"} onClick={() => setIsMenuOpen(false)}>
+                Collections
               </Link>
-              <Link href={"/Contacts"} onClick={() => setIsMenuOpen(false)}>
-                Contacts
+              <Link href={"/contact"} onClick={() => setIsMenuOpen(false)}>
+                Contact
               </Link>
             </nav>
           </div>
