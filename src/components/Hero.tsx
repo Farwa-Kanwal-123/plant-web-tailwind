@@ -33,7 +33,7 @@ const Hero = () => {
                 <p>Let&#39;s Bring the Spring to Your Home!{" "}</p>
               </div>
               <p className="px-[10%] md:px-40 text-wrap text-center">Explore our curated collection of beautiful indoor plants, designed to brighten your space and enhance your well-being. Whether you&#39;re a seasoned plant parent or just starting your green journey, find the perfect plant to suit your style and space. Start growing your green world today!</p>
-              <button className="bg-green-600 text-white px-2 md:px-5 lg:px-6 py-1 md:py-2 rounded-full hover:scale-105">
+              <button className="bg-green-600 text-white px-3 md:px-5 lg:px-6 py-1 md:py-2 rounded-full hover:scale-105">
                 SHOP NOW
               </button>
             </div>
